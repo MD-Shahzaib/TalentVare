@@ -1,3 +1,7 @@
+const PRIMARY_COLOR = "#0050aa";
+const SECONDARY_COLOR = "#333333";
+const TERTIARY_COLOR = "#666666";
+
 const navItems = [
     { name: 'Find Jobs', path: '/find-jobs', active: true },
     { name: 'Top Companies', path: '/top-companies' },
@@ -100,6 +104,9 @@ const recommendedJobs = [
 ];
 
 export {
+    PRIMARY_COLOR,
+    SECONDARY_COLOR,
+    TERTIARY_COLOR,
     navItems,
     featuredJobs,
     recommendedJobs
