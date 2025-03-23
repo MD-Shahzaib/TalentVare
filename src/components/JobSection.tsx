@@ -18,7 +18,7 @@ interface JobSectionProps {
 const JobSection: React.FC<JobSectionProps> = ({ title, seeAllLink, jobs }) => {
     return (
         <section className="mb-8">
-            <div className="flex items-center justify-between mb-4">
+            <div className="flex items-start justify-center mb-4 flex-col min-[390px]:flex-row min-[390px]:justify-between min-[390px]:items-center">
                 <h2 className="text-lg font-semibold text-[#333333]">{title}</h2>
                 <Link href={seeAllLink} className="text-sm text-[#0050aa] hover:underline">
                     See {title}

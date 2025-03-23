@@ -62,7 +62,7 @@ const JobCard: React.FC<JobCardProps> = ({
       </div>
 
       <div className="flex items-center justify-between mt-1">
-        <button className="text-white rounded-sm bg-[#0050aa] hover:bg-blue-700 transition-colors duration-200 font-medium text-xs py-1.5 px-3">
+        <button className="text-white rounded-sm bg-[#0050aa] hover:bg-[#0066aa] transition-colors duration-200 font-medium text-xs py-1.5 px-3">
           Apply Now
         </button>
         <button className="p-1.5 text-[#666666] hover:text-[#0050aa] transition-colors cursor-pointer rounded-full hover:bg-[#e6f0fa]">

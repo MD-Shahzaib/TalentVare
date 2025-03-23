@@ -19,11 +19,11 @@ const ProfileSidebar: React.FC<ProfileSidebarProps> = ({
     return (
         <aside className="w-full md:w-[250px] bg-white rounded-lg overflow-hidden shadow-sm animate-fade-in">
             <div className="relative">
-                <div className="h-25 bg-gradient-to-r from-blue-500 to-blue-700">
+                <div className="h-25">
                     <img
                         src="banner.png"
                         alt="Profile background"
-                        className="w-full h-full bg-center object-cover opacity-60"
+                        className="w-full h-full bg-center object-cover"
                     />
                 </div>
 
