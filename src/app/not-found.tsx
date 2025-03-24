@@ -11,7 +11,7 @@ const NotFound = () => {
                     <h1 className="text-4xl font-bold text-[#0050aa] mb-4">404</h1>
                     <p className="text-xl text-[#333333] mb-6">This page is under construction</p>
                     <p className="text-[#666666] mb-8 text-[15px]">
-                        The page you're looking for is currently being developed. Please check back later.
+                        The page you&apos;re looking for is currently being developed. Please check back later.
                     </p>
                     <Link href="/" className="text-white py-2 px-4 rounded-md bg-[#0050aa] hover:bg-blue-700 transition-colors duration-200 text-sm font-medium inline-block">
                         Return to Home

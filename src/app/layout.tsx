@@ -61,11 +61,6 @@ export const metadata: Metadata = {
     creator: "@talentvare",
     images: ["https://talentvare.com/twitter-image.jpg"],
   },
-  viewport: {
-    width: "device-width",
-    initialScale: 1,
-    maximumScale: 1,
-  },
   verification: {
     google: "google-site-verification-code",
     yandex: "yandex-verification-code",
